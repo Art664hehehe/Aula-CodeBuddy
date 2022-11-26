@@ -1,17 +1,33 @@
-html, body {
+html,
+body {
     font-size: 16px;
     line-height: normal;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 img {
     vertical-align: baseline;
 }
+
 p {
     margin: 1em 0;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     line-height: 1.42857143;
 }
+
 .container {
     font-size: 14px;
     line-height: 1.42857143;
@@ -20,42 +36,57 @@ p {
     margin: 0 auto;
     padding: 0;
 }
+
 .panel-title {
-    font-weight: bold; 
+    font-weight: bold;
 }
+
 .profile-pic {
     padding-right: 0.5em;
 }
+
 .profile-details {
     display: inline-block;
 }
-.profile-name, .profile-role {
+
+.profile-name,
+.profile-role {
     margin: 0;
-    vertical-align: top;
-    vertical-align: super;
 }
-.profile-name{
+
+.panel-body{
+    display: flex;
+}
+
+.panel-body_2{
+    padding: 15px;
+}
+
+.profile-name {
     font-weight: bold;
 }
+
 .exponent {
-
+    
 }
-.subscript {
 
-}
-.profile-details {
+.subscript {}
 
-}
-.fox, .dog {
+.profile-details {}
+
+.fox,
+.dog {
     vertical-align: middle;
 }
+
 @media (min-width: 800px) {
-  .container {
-    max-width: 800px;
-  }
+    .container {
+        max-width: 800px;
+    }
 }
+
 @media (max-width: 800px) {
-  .container {
-    max-width: 100%;
-  }
+    .container {
+        max-width: 100%;
+    }
 }
