@@ -1,6 +1,7 @@
 /* Global */
-* {
-	/* you'll want to use this for something... boxy. */
+.flex {
+	display: flex;
+    flex-direction: row-reverse;
 }
 
 body {
@@ -34,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 	width: 800px;
 	margin: auto;
+	margin-bottom: 20px;
 }
 
 /* Font Awesome - http://fontawesome.io/ */
@@ -73,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 1.5rem 0;
 	padding: 0;
 	list-style-type: none;
+	display: flex;
 }
 
 .recipe-note {
