@@ -7,7 +7,46 @@
         </title>
     </head>
     <body>
-        <img src="../imagens/001.png" alt="Bulbasur">
-        <img src="../imagens/002.png" alt=""
+        <style>
+            .alinhamento-vertical{
+                display: flex;
+                height: 300px;
+            }
+            .borda{
+                border: solid;
+                border-color: greenyellow;
+                margin: 50px;
+                border-radius: 50px;
+            }
+            .borda-pai{
+                border: solid;
+                border-color: green;
+            }
+            .flex{
+                display: flex;
+            }
+            .alinhamento-horizontal{
+                align-items: center;
+            }
+            .limite_de_texto{
+                width: 500px;
+                font-size: 20px;
+                padding-left: 50px;
+            }
+        </style>
+        <div class="borda-pai">
+            <div class="flex alinhamento-horizontal borda">
+                <img src="../imagens/001.png" alt="Bulbasur" class="alinhamento-vertical">
+                <span class="limite_de_texto">Há uma semente em suas costas desde o dia em que este Pokémon nasceu. A semente cresce lentamente.</span>
+            </div>
+            <div class="flex alinhamento-horizontal borda">
+                <img src="../imagens/002.png" alt="Ivysaur" class="alinhamento-vertical">
+                <span class="limite_de_texto">Quando o bulbo nas costas cresce, parece perder a capacidade de ficar de pé nas patas traseiras.</span>
+            </div>
+            <div class="flex alinhamento-horizontal borda">
+                <img src="../imagens/003.png" alt="Venusaur" class="alinhamento-vertical">
+                <span class="limite_de_texto">Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz do sol.</span>
+            </div>
+        </div>
     </body>
 </html>
