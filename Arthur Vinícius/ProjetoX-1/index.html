@@ -9,6 +9,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
+        }
+
+        .requisitos-inbody {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .img {
@@ -26,53 +33,90 @@
             border-top-left-radius: 30px;
             font-family: 'Courier New', Courier, monospace;
         }
-        .span{
+
+        .cor {
+            border-color: aqua;
+            background-color: rgba(0, 255, 250, 0.35);
+            color: rgb(0, 21, 138);
+        }
+
+        .cor2 {
+            border-color: gold;
+            background-color: rgba(255, 217, 0, 0.555);
+            color: goldenrod;
+        }
+
+        .span {
             padding: 20px;
             padding-left: 36px;
             position: relative;
             bottom: 20px;
+            color: deepskyblue;
         }
-        .espaco{
+
+        .espaco {
             margin: 10px;
+            border: solid;
+            border-color: aqua;
+            border-radius: 30px;
+        }
+
+        .span2 {
+            padding: 20px;
+            padding-left: 36px;
+            position: relative;
+            bottom: 20px;
+            color: goldenrod;
+        }
+
+        .divisao {
+            margin: 10px;
+            border: solid;
+            border-color: gold;
+            border-radius: 30px;
         }
     </style>
 </head>
 
 <body style="height: 100%;" class="requisitos-body">
-    <div class="requisitos-body">
-        <div class="espaco" style="border: solid; border-color: aqua; border-radius: 30px;">
+    <div class="requisitos-inbody">
+        <div class="espaco">
             <div>
-                <span class="hora" style="border-color: aqua; background-color: rgba(0, 255, 250, 0.35); color: rgb(0, 21, 138);">7:25 AM</span>
+                <span class="hora cor">7:25 AM</span>
             </div>
             <div>
                 <a href="https://i.giphy.com/media/5kq0GCjHA8Rwc/giphy.gif" target="_blank">
-                    <img style="padding: 30px;" src="../ProjetoX-1/imagens/flight_takeoff_FILL0_wght400_GRAD0_opsz48.png" class="img" />
+                    <img style="padding: 30px;"
+                        src="../ProjetoX-1/imagens/flight_takeoff_FILL0_wght400_GRAD0_opsz48.png" class="img" />
                 </a>
             </div>
             <div>
                 <span class="span">Boston</span>
             </div>
         </div>
-        <div class="espaco" style="border: solid; border-color: aqua; border-radius: 30px;">
+        <div class="espaco">
             <div>
-                <span class="hora" style="border-color: aqua; background-color: rgba(0, 255, 250, 0.35); color: rgb(0, 21, 138);">8:15 PM</span>
+                <span class="hora cor">8:15 PM</span>
             </div>
             <div>
                 <a href="https://media.tenor.com/K3uxrqffdCAAAAAC/capybara-orange.gif" target="_blank">
-                    <img style="padding: 30px;" src="../ProjetoX-1/imagens/flight_land_FILL0_wght400_GRAD0_opsz48.png" class="img"/>
+                    <img style="padding: 30px;" src="../ProjetoX-1/imagens/flight_land_FILL0_wght400_GRAD0_opsz48.png"
+                        class="img" />
                 </a>
             </div>
             <div>
                 <span class="span">Madrid</span>
             </div>
         </div>
-        <div class="espaco" style="border: solid; border-color: aqua; border-radius: 30px;">
+        <div class="espaco">
             <div>
-                <span class="hora" style="border-color: aqua; background-color: rgba(0, 255, 250, 0.35); color: rgb(0, 21, 138);">Translate</span>
+                <span class="hora cor">Translate</span>
             </div>
             <div style="left: 10px; position: relative;">
-                <a href="https://pa1.narvii.com/6957/493a1de6aea733857d433c30316cb8075d861c73r1-314-200_hq.gif" target="_blank">
-                    <img style="padding: 30px;" src="../ProjetoX-1/imagens/translate_FILL0_wght400_GRAD0_opsz48.png" class="img"/>
+                <a href="https://pa1.narvii.com/6957/493a1de6aea733857d433c30316cb8075d861c73r1-314-200_hq.gif"
+                    target="_blank">
+                    <img style="padding: 30px;" src="../ProjetoX-1/imagens/translate_FILL0_wght400_GRAD0_opsz48.png"
+                        class="img" />
                 </a>
             </div>
             <div style="left: 10px; position: relative;">
@@ -80,18 +124,92 @@
             </div>
         </div>
     </div>
-    <div class="requisitos-body">
-        <div class="espaco" style="border: solid; border-color: aqua; border-radius: 30px;">
+    <div class="requisitos-inbody">
+        <div class="divisao">
             <div>
-                <span class="hora" style="border-color: aqua; background-color: rgba(0, 255, 250, 0.35); color: rgb(0, 21, 138);">7:25 AM</span>
+                <span class="hora cor2">Bike</span>
             </div>
             <div>
                 <a href="https://i.giphy.com/media/5kq0GCjHA8Rwc/giphy.gif" target="_blank">
-                    <img style="padding: 30px;" src="../ProjetoX-1/imagens/flight_takeoff_FILL0_wght400_GRAD0_opsz48.png" class="img" />
+                    <img style="padding: 30px;"
+                        src="../ProjetoX-1/imagens/directions_bike_FILL0_wght400_GRAD0_opsz48.png" class="img" />
+                </a>
+            </div>
+            <div>
+                <span class="span2">13.1 Miles</span>
+            </div>
+        </div>
+        <div class="divisao">
+            <div>
+                <span class="hora cor2">Boat</span>
+            </div>
+            <div>
+                <a href="https://i.giphy.com/media/5kq0GCjHA8Rwc/giphy.gif" target="_blank">
+                    <img style="padding: 30px;"
+                        src="../ProjetoX-1/imagens/directions_bike_FILL0_wght400_GRAD0_opsz48.png" class="img" />
+                </a>
+            </div>
+            <div>
+                <span class="span2">90 Minutes</span>
+            </div>
+        </div>
+        <div class="divisao">
+            <div>
+                <span class="hora cor2">Drive</span>
+            </div>
+            <div>
+                <a href="https://i.giphy.com/media/5kq0GCjHA8Rwc/giphy.gif" target="_blank">
+                    <img style="padding: 30px;"
+                        src="../ProjetoX-1/imagens/directions_bike_FILL0_wght400_GRAD0_opsz48.png" class="img" />
+                </a>
+            </div>
+            <div>
+                <span class="span2">48 Miles</span>
+            </div>
+        </div>
+    </div>
+    <div class="requisitos-inbody">
+        <div class="espaco">
+            <div>
+                <span class="hora cor">7:25 AM</span>
+            </div>
+            <div>
+                <a href="https://i.giphy.com/media/5kq0GCjHA8Rwc/giphy.gif" target="_blank">
+                    <img style="padding: 30px;"
+                        src="../ProjetoX-1/imagens/flight_takeoff_FILL0_wght400_GRAD0_opsz48.png" class="img" />
                 </a>
             </div>
             <div>
                 <span class="span">Boston</span>
+            </div>
+        </div>
+        <div class="espaco">
+            <div>
+                <span class="hora cor">8:15 PM</span>
+            </div>
+            <div>
+                <a href="https://media.tenor.com/K3uxrqffdCAAAAAC/capybara-orange.gif" target="_blank">
+                    <img style="padding: 30px;" src="../ProjetoX-1/imagens/flight_land_FILL0_wght400_GRAD0_opsz48.png"
+                        class="img" />
+                </a>
+            </div>
+            <div>
+                <span class="span">Madrid</span>
+            </div>
+        </div>
+        <div class="espaco">
+            <div>
+                <span class="hora cor">Translate</span>
+            </div>
+            <div style="left: 10px; position: relative;">
+                <a href="https://pa1.narvii.com/6957/493a1de6aea733857d433c30316cb8075d861c73r1-314-200_hq.gif"
+                    target="_blank">
+                    <img style="padding: 30px;" src="../ProjetoX-1/imagens/translate_FILL0_wght400_GRAD0_opsz48.png"
+                        class="img" />
+                </a>
+            </div>
+            <div style="left: 10px; position: relative;">
+                <span class="span">Spanish</span>
             </div>
         </div>
     </div>
