@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <style>
-        .Logo{
-            background-color: rgba(29,29,27,255);
+        .Logo {
+            background-color: rgba(29, 29, 27, 255);
             width: 200px;
             display: flex;
             align-items: center;
@@ -15,20 +16,25 @@
             border-radius: 15px;
             margin: 10px;
         }
-        .Boxes{
+
+        .Boxes {
             display: flex;
+            flex-direction: column;
         }
-        .introducao{
-            background-color: rgba(29,29,27,255);
+
+        .introducao {
+            background-color: rgba(29, 29, 27, 255);
             margin: 10px;
             border-radius: 15px;
             width: 700px;
             position: relative;
             display: flex;
             flex-direction: column;
+            height: max-content;
         }
-        #git{
-            background-color: rgba(29,29,27,255);
+
+        #git {
+            background-color: rgba(29, 29, 27, 255);
             border-radius: 15px;
             display: flex;
             justify-content: center;
@@ -36,78 +42,119 @@
             width: 200px;
             left: 10px;
         }
-        #linguagens{
+
+        #linguagens {
             display: flex;
             padding-left: 50px;
             flex-direction: column;
         }
-        #capivara{
+
+        #capivara {
             display: block;
         }
-        #HTML{
+
+        #HTML {
             display: flex;
             align-items: center;
         }
-        #CSS{
+
+        #CSS {
             display: flex;
             align-items: center;
             position: relative;
             left: 6px;
         }
-        #JavaScript{
+
+        #JavaScript {
             display: flex;
             position: relative;
             align-items: center;
             left: 6px;
         }
-        #p{
+
+        #p {
             color: white;
             position: relative;
             left: 60px;
         }
-        .solving_problems_with_problems{
+
+        .solving_problems_with_problems {
+            display: flex;
+            padding-bottom: 17px;
+        }
+
+        #redes {
+            position: relative;
+
+        }
+
+        .projetos {
+            background-color: rgba(29, 29, 27, 255);
+            position: relative;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 9px;
+            margin-right: 9px;
+        }
+        #nothing_important{
             display: flex;
         }
     </style>
 </head>
-<body style="background-color: black; display: flex; align-items: center; justify-content: center; margin-top: 220px;">
+
+<body style="background-color: black; display: flex; align-items: center; justify-content: center;">
     <div class="Boxes">
-        <div id="redes">
-            <header>
-                <div class="Logo">
-                    <img src="../ProjetoX-2/Imagens/Logo Art.jpg" alt="Logo" style="position: relative; top: 12px;">
-                    <p><span style="color: white; bottom: 26px; position: relative;">Arthur Vinícius</span></p>
+        <div id="nothing_important">
+            <div id="redes">
+                <header>
+                    <div class="Logo">
+                        <img src="../ProjetoX-2/Imagens/Logo Art.jpg" alt="Logo" style="position: relative; top: 12px;">
+                        <p><span style="color: white; bottom: 26px; position: relative;">Arthur Vinícius</span></p>
+                    </div>
+                </header>
+                <div id="git">
+                    <a href="https://github.com/Art664hehehe/Aula-CodeBuddy" target="_blank"><img
+                            src="../ProjetoX-2/Imagens/GitHub.png" alt="logo GitHub" style="width: 100px;"></a>
                 </div>
-            </header>
-            <div id="git">
-                <a href="https://github.com/Art664hehehe/Aula-CodeBuddy" target="_blank"><img src="../ProjetoX-2/Imagens/GitHub.png" alt="logo GitHub" style="width: 100px;"></a>
+            </div>
+            <div class="introducao">
+                <h1 style="position: relative; left: 20px;"><span style="color: white;">Sobre mim</span></h1>
+                <div class="solving_problems_with_problems">
+                    <img src="../capivara zoiuda.jpg" alt="Minha foto"
+                        style="width: 260px; position: relative; left: 40px; height: 260px;">
+                    <div id="capivara">
+                        <div id="linguagens">
+                            <div id="HTML">
+                                <img src="../ProjetoX-2/Imagens/HTML.png" alt="HTML5"
+                                    style="width: 64px; position: relative;">
+                                <h5 style="color: white;">HTML</h5>
+                            </div>
+                            <div id="CSS">
+                                <img src="../ProjetoX-2/Imagens/CSS.png" alt="CSS" style="width: 52px; height: 52px;">
+                                <h5 style="color: white; position: relative; left: 6px;">CSS</h5>
+                            </div>
+                            <div id="JavaScript">
+                                <img src="../ProjetoX-2/Imagens/JavaScript.png" alt="JS" style="width: 50px;">
+                                <h5 style="color: white; position: relative; left: 6px;">JavaScript</h5>
+                            </div>
+                        </div>
+                        <div id="p">
+                            <p style="width: 360px;">Estudante de robótica há 4 anos. Desenvolvedor web. Linguagens:
+                                HTML, CSS, JavaScript e C++ (com e sem arduino).</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="introducao">
-            <h1 style="position: relative; left: 20px;"><span style="color: white;">Sobre mim</span></h1>
-            <div class="solving_problems_with_problems">
-                <img src="../capivara zoiuda.jpg" alt="Minha foto" style="width: 260px; position: relative; left: 40px; height: 260px;">
-                <div id="capivara">
-                    <div id="linguagens">
-                        <div id="HTML">
-                            <img src="../ProjetoX-2/Imagens/HTML.png" alt="HTML5" style="width: 64px; position: relative;">
-                            <h5 style="color: white;">HTML</h5>
-                        </div>
-                        <div id="CSS">
-                            <img src="../ProjetoX-2/Imagens/CSS.png" alt="CSS" style="width: 52px; height: 52px;">
-                            <h5 style="color: white; position: relative; left: 6px;">CSS</h5>
-                        </div>
-                        <div id="JavaScript">
-                            <img src="../ProjetoX-2/Imagens/JavaScript.png" alt="JS" style="width: 50px;">
-                            <h5 style="color: white; position: relative; left: 6px;">JavaScript</h5>
-                        </div>
-                    </div>
-                    <div id="p">
-                        <p style="width: 360px;">Estudante de robótica há 4 anos. Desenvolvedor web. Linguagens: HTML, CSS, JavaScript e C++ (com e sem arduino).</p>
-                    </div>
-                </div>
-            </div>
+        <div class="projetos">
+            <h1 style="color: white; margin-left: 20px;">Projetos</h1>
+            <img src="../ProjetoX-2/Imagens/Homemade_Peach_Ice_Cream-Portfólio.png" alt="Projeto-1"
+                style="width: 660px; margin-left: 20px; padding-bottom: 20px;">
+            <img src="../ProjetoX-2/Imagens/Pokedéx-Portfólio.png" alt="Projeto-2"
+                style="width: 660px; margin-left: 20px; padding-bottom: 20px;">
         </div>
     </div>
 </body>
+
 </html>
