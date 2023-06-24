@@ -1,0 +1,94 @@
+.Logo {
+    background-color: rgba(29, 29, 27, 255);
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.Boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.introducao {
+    background-color: rgba(29, 29, 27, 255);
+    margin: 10px;
+    border-radius: 15px;
+    width: 700px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+#git {
+    background-color: rgba(29, 29, 27, 255);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 200px;
+    left: 10px;
+}
+
+#linguagens {
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+}
+
+#capivara {
+    display: block;
+}
+
+#HTML {
+    display: flex;
+    align-items: center;
+}
+
+#CSS {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 6px;
+}
+
+#JavaScript {
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 6px;
+}
+
+#p {
+    color: white;
+    position: relative;
+    left: 60px;
+}
+
+.solving_problems_with_problems {
+    display: flex;
+    padding-bottom: 17px;
+}
+
+#redes {
+    position: relative;
+
+}
+
+.projetos {
+    background-color: rgba(29, 29, 27, 255);
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+#nothing_important {
+    display: flex;
+}
